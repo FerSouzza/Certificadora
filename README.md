@@ -5,8 +5,7 @@
 
 # Descrição do Projeto
 
-<p>O sistema a ser desenvolvido consiste em uma página web para a divulgação de uma ferramenta integrada com Inteligência artificial para reconhecer poses e expressões dentro de uma reunião online em plataformas digitais com o intuito de identificar sintomas de ansiedade e burnout. </p>
-<p>Essa página de divulgação tem como objetivo alcançar mais pessoas e converte-las em usuárias do sistema, disponibilizando como principais funcionalidades um layout atrativo, um formulário para contato com a empresa responsável pelo sistema, conteúdo claro e relevante sobre o sistema agindo em conjunto com botões para chamada de ações a fim de aproximar os clientes da marca e da empresa, etc.
+<p>O C-Learning Quest é uma plataforma educacional gamificada projetada para introduzir iniciantes ao universo da programação em Linguagem C. O projeto combina a interatividade de um jogo de arcade/estratégia com o suporte pedagógico de videoaulas integradas, permitindo que o usuário aprenda conceitos teóricos e os aplique imediatamente para progredir nos desafios do jogo.
 </p>
 <p> O público alvo da plataforma são profissionais ou órgãos de escolas públicas e privadas de ensino, podendo ser professores, diretores, coordenadores ou profissionais públicos da secretaria de ensino da rede municipal e/ou estadual.</p>
 
