@@ -15,13 +15,18 @@
 
 <ul>
   
-
-📂 Documentação e Links Úteis
-<ul>
 <li>📄 <a href="https://trello.com">Planejamento e Kanban (Trello)</a></li>
 <li>⚙️ <a href="#">Requisitos do Sistema</a></li>
 <li>🎨 <a href="#">Protótipo do Jogo (Figma/Canvas)</a></li>
 <li>🎬 <a href="https://github.com/FerSouzza/Certificadora/tree/main/videos">Repositório de Vídeos (VideoScribe)</a></li>
+
+</ul>
+
+<ul>
+  
+📂 Documentação e Links Úteis
+<ul>
+
 </ul>
 
 👥 Lista de Integrantes
