@@ -13,6 +13,7 @@
 
 <p>O público-alvo são estudantes iniciantes em tecnologia e lógica de programação, proporcionando um ambiente onde a teoria dos algoritmos é aplicada imediatamente na prática do jogo.</p>
 
+# Documnetação e Links Úteis
 <ul>
   
 <li>📄 <a href="https://trello.com">Planejamento e Kanban (Trello)</a></li>
