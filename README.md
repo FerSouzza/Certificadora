@@ -25,41 +25,34 @@
 
 
 # Lista de Integrantes
-<table align="center">
-<tr>
-<td align="center">
-<a href="https://github.com/FerSouzza">
-<img src="https://avatars.githubusercontent.com/u/138416145?v=4" width="115px;" alt="Fernando Souza"/>
 
-
-<sub><b>Fernando Souza</b></sub>
-</a>
-</td>
-<td align="center">
-<a href="#">
-<img src="https://ui-avatars.com/api/?name=Bruna+Kaori&background=0D8ABC&color=fff" width="115px;" alt="Bruna Kaori"/>
-
-
-<sub><b>Bruna Kaori</b></sub>
-</a>
-</td>
-<td align="center">
-<a href="#">
-<img src="https://ui-avatars.com/api/?name=Giovana+Ribeiro&background=0D8ABC&color=fff" width="115px;" alt="Giovana Ribeiro"/>
-
-
-<sub><b>Giovana R.</b></sub>
-</a>
-</td>
-<td align="center">
-<a href="#">
-<img src="https://ui-avatars.com/api/?name=Giovanna+Furlan&background=0D8ABC&color=fff" width="115px;" alt="Giovanna Furlan"/>
-
-
-<sub><b>Giovanna F.</b></sub>
-</a>
-</td>
-</tr>
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/tkaoribruna?tab=repositories">
+        <img src="https://avatars.githubusercontent.com/u/205248460?v=4" width="115"/><br>
+        <sub><b>Bruna Kaori</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/FerSouzza">
+        <img src="https://avatars.githubusercontent.com/u/138416145?v=4" width="115"/><br>
+        <sub><b>Fernando Souza</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/">
+        <img src="https://ui-avatars.com/api/?name=Giovana+Ribeiro&background=0D8ABC&color=fff" width="115"/><br>
+        <sub><b>Giovana Ribeiro</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/">
+        <img src="https://ui-avatars.com/api/?name=Giovanna+Furlan&background=0D8ABC&color=fff" width="115"/><br>
+        <sub><b>Giovanna Furlan</b></sub>
+      </a>
+    </td>
+  </tr>
 </table>
 
 <p align="center">
