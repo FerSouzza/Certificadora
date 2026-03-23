@@ -1,4 +1,4 @@
-<p align="center"><img src="assets/icone/icon.png" width="80" style="vertical-align: middle;"></p>
+<p align="center"><img src="assets/icone/icon.png" width="200" style="vertical-align: middle;"></p>
 <br>🕹️ Descrição do Projeto
 <p>O <b>C-Learning Quest</b> é um Recurso Educacional Aberto (REA) desenvolvido para a disciplina de Fundamentos da Programação. O sistema consiste em uma página web interativa que utiliza um jogo no estilo arcade para ensinar a sintaxe e a lógica da <b>Linguagem C</b> de maneira acessível e lúdica.</p>
 
