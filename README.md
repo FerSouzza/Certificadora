@@ -1,9 +1,9 @@
 
 
-# SenseYou
+# C-Learning Quest
 <br>
 <p align="center"><img src="assets/icone/icon.png" width="400" style="vertical-align: middle;"></p>
-<p align="center">C-Learning Quest</p>
+<p align="center">Certificadora de Competência Comum.</p>
 
 # Descrição do Projeto
 
