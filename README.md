@@ -41,8 +41,8 @@
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/">
-        <img src="https://ui-avatars.com/api/?name=Giovana+Ribeiro&background=0D8ABC&color=fff" width="115"/><br>
+      <a href="https://github.com/](https://github.com/giovana0402">
+        <img src="https://avatars.githubusercontent.com/u/205249734?v=4" width="115"/><br>
         <sub><b>Giovana Ribeiro</b></sub>
       </a>
     </td>
