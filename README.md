@@ -47,8 +47,8 @@
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/">
-        <img src="https://ui-avatars.com/api/?name=Giovanna+Furlan&background=0D8ABC&color=fff" width="115"/><br>
+      <a href="https://github.com/](https://github.com/GiovannaFutf">
+        <img src="https://ui-avatars.com/api/?name=Giovanna+Furlan&background=0D8ABC&color=fff](https://avatars.githubusercontent.com/u/205248204?v=4" width="115"/><br>
         <sub><b>Giovanna Furlan</b></sub>
       </a>
     </td>
