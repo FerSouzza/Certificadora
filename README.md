@@ -40,6 +40,12 @@
         <sub><b>Fernando Souza</b></sub>
       </a>
     </td>
+    <td align="center>
+      <a href="https://github.com/Dangocan">
+        <img src="https://avatars.githubusercontent.com/u/55359384?v=4" width"115"/><br>
+        <sub><b>Danilo Gomes</b></sub>
+      </a>
+    </td>
     <td align="center">
       <a href="https://github.com/](https://github.com/giovana0402">
         <img src="https://avatars.githubusercontent.com/u/205249734?v=4" width="115"/><br>
