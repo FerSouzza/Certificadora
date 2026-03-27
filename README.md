@@ -40,7 +40,7 @@
         <sub><b>Fernando Souza</b></sub>
       </a>
     </td>
-    <td align="center>
+    <td align="center">
       <a href="https://github.com/Dangocan?tab=repositories">
         <img src="https://avatars.githubusercontent.com/u/55359384?v=4" width="115"/><br>
         <sub><b>Danilo Gomes</b></sub>
