@@ -35,15 +35,15 @@
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/FerSouzza">
-        <img src="https://avatars.githubusercontent.com/u/138416145?v=4" width="115"/><br>
-        <sub><b>Fernando Souza</b></sub>
-      </a>
-    </td>
-    <td align="center">
       <a href="https://github.com/Dangocan?tab=repositories">
         <img src="https://avatars.githubusercontent.com/u/55359384?v=4" width="115"/><br>
         <sub><b>Danilo Gomes</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/FerSouzza">
+        <img src="https://avatars.githubusercontent.com/u/138416145?v=4" width="115"/><br>
+        <sub><b>Fernando Souza</b></sub>
       </a>
     </td>
     <td align="center">
