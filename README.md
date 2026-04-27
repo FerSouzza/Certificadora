@@ -18,7 +18,7 @@
   
 <li>📄 <a href="https://trello.com/b/1z39S577/kanban-certificadora">Planejamento e Kanban (Trello)</a></li>
 <li>⚙️ <a href="#">Requisitos do Sistema</a></li>
-<li>🎨 <a href="#">Protótipo do Jogo (Figma/Canvas)</a></li>
+<li>🎨 <a href="https://upload-office-62034850.figma.site">Protótipo do Jogo (Figma/Canvas)</a></li>
 <li>🎬 <a href="https://github.com/FerSouzza/Certificadora/tree/main/videos">Repositório de Vídeos (VideoScribe)</a></li>
 
 </ul>
