@@ -47,13 +47,13 @@
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/](https://github.com/giovana0402">
+      <a href="https://github.com/giovana0402">
         <img src="https://avatars.githubusercontent.com/u/205249734?v=4" width="115"/><br>
         <sub><b>Giovana Ribeiro</b></sub>
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/](https://github.com/GiovannaFutf">
+      <a href="https://github.com/GiovannaFutf">
         <img src="https://ui-avatars.com/api/?name=Giovanna+Furlan&background=0D8ABC&color=fff](https://avatars.githubusercontent.com/u/205248204?v=4" width="115"/><br>
         <sub><b>Giovanna Furlan</b></sub>
       </a>
