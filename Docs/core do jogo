@@ -1,1 +1,172 @@
+================================================================================
+                    CODE QUEST - GUIA DE FASES
+================================================================================
+
+Este documento descreve o conteúdo pedagógico e mecânicas de cada fase do
+Code Quest, plataforma educacional de programação gamificada.
+
+================================================================================
+
+
+FASE 1: VARIÁVEIS E TIPOS DE DADOS (TETRIS)
+================================================================================
+
+Objetivo: Compreender e aplicar a declaração de variáveis, tipos de dados
+e sintaxe básica de atribuição.
+
+Tópicos Abordados:
+  • Declaração de variáveis (int)
+  • Tipos de dados numéricos
+  • Operador de atribuição (=)
+  • Sintaxe: tipo nome = valor;
+  • Múltiplas declarações de variáveis
+
+Jogo da Fase 1: TETRIS NEON
+Nesta fase, o jogador visualiza peças de Tetris que precisam ser controladas
+através de declarações de variáveis. Cada desafio exige a declaração correta
+de uma ou mais variáveis para controlar o tipo de peça, rotação e posição.
+
+Quest 1 – Declaração Simples: Criar uma variável para definir o tipo de peça.
+
+    Exemplo: int tipo = 1;
+
+    Resultado: Aparece um QUADRADO AMARELO no centro da tela (tipo 1).
+
+    Conceito: Declaração básica de variável inteira com atribuição.
+
+Quest 2 – Múltiplas Variáveis: Declarar tipo e rotação da peça.
+
+    Exemplo: int tipo = 2; int rotacao = 90;
+
+    Resultado: Aparece uma LINHA CIANO que gira 90 graus (de horizontal
+               para vertical).
+
+    Conceito: Declaração de múltiplas variáveis independentes, cada uma
+              controlando um aspecto do jogo (forma e orientação).
+
+Quest 3 – Sistema Completo: Declarar tipo, rotação e posição da peça.
+
+    Exemplo: int tipo = 3; int rotacao = 90; int posicao = 150;
+
+    Resultado: Aparece uma PEÇA L LARANJA girada 90° na posição 150px.
+
+    Conceito: Controle completo através de múltiplas variáveis trabalhando
+              em conjunto. O aluno entende que cada variável tem um papel
+              específico no comportamento do programa.
+
+Elementos Visuais:
+  • Grid neon de fundo (estilo hacker/terminal)
+  • Painel de variáveis no topo mostrando os valores atuais
+  • Peça Tetris centralizada com cores neon vibrantes
+  • Animação de rotação suave quando resposta correta
+  • Feedback visual: ✓ CORRETO! ou ✗ INCORRETO
+
+Dificuldade Progressiva:
+  Easy   → 1 variável (tipo)
+  Medium → 2 variáveis (tipo + rotacao)
+  Hard   → 3 variáveis (tipo + rotacao + posicao)
+
+
+================================================================================
+
+
+FASE 2: ESTRUTURAS CONDICIONAIS (PAC-MAN)
+================================================================================
+
+Objetivo: Compreender e aplicar estruturas condicionais (if/else), operadores
+de comparação e operadores lógicos.
+
+Tópicos Abordados:
+  • Estrutura condicional simples (if)
+  • Estrutura condicional composta (if/else)
+  • Estrutura encadeada (if/else if/else)
+  • Operadores de comparação (==, >)
+  • Operadores lógicos (&&)
+  • Blocos de código { }
+
+Jogo da Fase 2: PAC-MAN CÓDIGO
+Nesta fase, o jogador visualiza o Pac-Man no centro da tela e uma seta
+indicando a direção alvo. O aluno deve escrever condicionais para controlar
+o movimento baseado nos valores das variáveis exibidas.
+
+Quest 1 – IF Simples: Verificar uma única condição para mover o Pac-Man.
+
+    Exemplo: if (direcao == 1) { mover(); }
+
+    Resultado: Se direcao for igual a 1, Pac-Man move para a DIREITA (→).
+
+    Conceito: Estrutura condicional básica. Introduz operador de igualdade
+              (==) e sintaxe de blocos { }.
+
+    Variáveis mostradas:
+      • int direcao = 1;
+
+Quest 2 – IF-ELSE: Tomar decisões baseadas em comparações numéricas.
+
+    Exemplo: if (velocidade > 5) { rapido(); } else { devagar(); }
+
+    Resultado: Se velocidade for MAIOR que 5, Pac-Man corre rápido.
+               Caso contrário, move devagar.
+
+    Conceito: Introduz o ELSE (senão) e operador de comparação (>).
+              O aluno entende que há dois caminhos possíveis.
+
+    Variáveis mostradas:
+      • int velocidade = 7;
+
+Quest 3 – IF-ELSE IF-ELSE com Operador Lógico: Múltiplas condições encadeadas
+          com operador E lógico (&&).
+
+    Exemplo: if (direcao == 1 && velocidade > 5) { correr(); }
+             else if (direcao == 2) { fugir(); }
+             else { parar(); }
+
+    Resultado: Se direcao = 1 E velocidade > 5, Pac-Man CORRE para direita.
+               Senão, se direcao = 2, Pac-Man FOGE para esquerda.
+               Senão (outros casos), Pac-Man PARA.
+
+    Conceito: Estruturas condicionais encadeadas com múltiplas verificações.
+              Introduz operador lógico && (E) que exige AMBAS condições
+              sejam verdadeiras.
+
+    Variáveis mostradas:
+      • int direcao = 1;
+      • int velocidade = 7;
+
+Elementos Visuais:
+  • Grid neon de fundo (estilo cyberpunk)
+  • Painel de variáveis no topo com valores atuais
+  • Pac-Man amarelo animado (boca abrindo/fechando)
+  • Seta grande indicando direção alvo (→ ← ↑ ↓)
+  • Movimento suave quando resposta correta
+  • Feedback visual: ✓ CORRETO! PAC-MAN MOVENDO... ou ✗ DIREÇÃO INCORRETA!
+
+Dificuldade Progressiva:
+  Easy   → IF simples (1 condição)
+  Medium → IF-ELSE (2 caminhos)
+  Hard   → IF-ELSE IF-ELSE com && (múltiplas condições + operador lógico)
+
+Códigos de Direção:
+  1 = DIREITA (→)
+  2 = ESQUERDA (←)
+  3 = CIMA (↑)
+  4 = BAIXO (↓)
+
+
+================================================================================
+
+
+FASE 3: ESTRUTURAS DE REPETIÇÃO E CONTROLE DE FLUXO (JOGO DO COFRE)
+================================================================================
+
+Objetivo: Compreender e aplicar as estruturas de repetição (while, do-while e for)
+e os comandos de controle de fluxo (break e continue).
+
+Tópicos Abordados:
+
+• Laço de repetição while   
+• Laço de repetição do-while   
+• Laço de repetição for   
+•Comando de interrupção break
+
 
