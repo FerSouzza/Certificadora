@@ -167,6 +167,68 @@ Tópicos Abordados:
 • Laço de repetição while   
 • Laço de repetição do-while   
 • Laço de repetição for   
-•Comando de interrupção break
+• Comando de interrupção break
+• Comando de salto
+
+Jogo da Fase 3: JOGO DO COFRE
+Nesta fase, o jogador atua como um hacker que deve criar um sistema para adivinhar a
+combinação de um cofre de 3 dígitos. O aluno utiliza laços para gerenciar tentativas 
+e validar a senha.
+
+Quest 1 – Laço Do-While: Criar um loop que pergunte se o usuário deseja continuar para
+invadir outro cofre após uma tentativa.
+
+Exemplo: do { jogarNivelHacker(); }
+          while (continuar == 's');
+
+Conceito: Garante que o bloco de código seja executado ao menos uma vez antes da 
+          verificação da condição.
+
+Quest 2 – Laço While: Estabelecer um limite de 5 tentativas de senha e exibir o saldo 
+restante ao usuário.
+
+Exemplo: while (tentativas > 0) 
+        { printf("%d restantes", tentativas);
+          tentativas--; }
+
+Conceito: Executa um bloco de código enquanto 
+          uma condição específica for verdadeira.
+
+Quest 3 – Laço For: Percorrer e comparar individualmente cada um dos três dígitos da senha.
+
+Exemplo: for (int i=0; i < 3; i++)
+        { if (tentativa[i] == senha[i]) { ... } }
+
+Conceito: Estrutura de repetição ideal para iterar 
+          sobre intervalos conhecidos ou arrays.
+
+Quest 4 – Comando Break: Interromper o laço de tentativas imediatamente se a senha correta for detectada.
+
+Exemplo: if (senhaCorreta)
+        { printf("Acesso aprovado!");
+          break; }
+
+Conceito: Finaliza a execução do loop atual de
+          forma prematura ao atingir um critério.
+
+Quest 5 – Comando Continue: Pular o restante do código e iniciar uma nova tentativa se a senha for inválida.
+
+Exemplo: if (senhaInvalida) 
+          { printf("Tente novamente."); 
+          continue; }
+
+Conceito: Interrompe a iteração atual e salta diretamente
+          para a próxima verificação do laço.
 
 
+Elementos Visuais:
+  • Interface com resumo da matéria e vídeo-aulas integradas.
+  • Terminal hacker para digitação direta do código.
+  • Cofre metálico centralizado que reage aos comandos (animação de abertura ou erro).
+  • Exibição de mensagens de log no terminal (ex: "Acesso aprovado!" ou "Senha Inválida!")
+!
+
+Dificuldade Progressiva:
+  Easy   → Repetições simples (do-while / while)
+  Medium → Iteração controlada e indexada (for).
+  Hard   → Controle avançado de fluxo com condições lógicas (break e continue).
