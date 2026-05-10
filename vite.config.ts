@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   
-  base: '/TCertf/', 
+  base: '/Certificadora/',
   
   plugins: [
     react(),
