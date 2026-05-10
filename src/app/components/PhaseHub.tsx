@@ -5,7 +5,7 @@ const phases = [
   {
     id: 1,
     title: 'FASE 1: Variáveis',
-    instructor: 'Fernando',
+    instructor: 'Fernando e Giovana R.',
     icon: Code,
     color: '#00ff41',
     description: 'Domine os fundamentos de armazenamento de dados'
@@ -13,7 +13,7 @@ const phases = [
   {
     id: 2,
     title: 'FASE 2: Condicionais',
-    instructor: 'Danilo',
+    instructor: 'Fernando e Giovana R.',
     icon: GitBranch,
     color: '#00d9ff',
     description: 'Aprenda a tomar decisões no código'
@@ -21,7 +21,7 @@ const phases = [
   {
     id: 3,
     title: 'FASE 3: Repetição',
-    instructor: 'Bruna',
+    instructor: 'Bruna e Giovanna F.',
     icon: Repeat,
     color: '#ff006e',
     description: 'Controle loops e iterações'
@@ -29,7 +29,7 @@ const phases = [
   {
     id: 4,
     title: 'FASE 4: Funções',
-    instructor: 'Danilo',
+    instructor: 'Danilo e Giovanna F.',
     icon: FunctionSquare,
     color: '#ffd60a',
     description: 'Estruture código reutilizável'
