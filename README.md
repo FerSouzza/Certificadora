@@ -20,6 +20,7 @@
 <li>🎮 <a href="https://github.com/FerSouzza/Certificadora/tree/main/Core%20do%20Jogo">Core dos Jogos</a></li>
 <li>🎨 <a href="https://upload-office-62034850.figma.site">Protótipo do Jogo (Figma)</a></li>
 <li>🎬 <a href="https://github.com/FerSouzza/Certificadora/tree/main/videos">Repositório de Vídeos </a></li>
+<li>🖥️ <a href="https://github.com/FerSouzza/Certificadora/tree/main/Slides">Repositório dos slides </a></li>
 
 </ul>
 
