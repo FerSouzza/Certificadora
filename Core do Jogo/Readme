@@ -1,104 +1,70 @@
-================================================================================
-                    CODE QUEST - GUIA DE FASES
-================================================================================
+# 🎮 Code Quest - Guia de Fases
 
-Este documento descreve o conteúdo pedagógico e mecânicas de cada fase do
-Code Quest, plataforma educacional de programação gamificada.
+O **Code Quest** é uma plataforma educacional de programação gamificada, projetada para ensinar conceitos fundamentais de desenvolvimento através de desafios interativos e visualmente estimulantes.
 
-================================================================================
-FASE 1: VARIÁVEIS E TIPOS DE DADOS (TETRIS)
-================================================================================
+---
 
-Objetivo: Compreender e aplicar a declaração de variáveis, tipos de dados
-e sintaxe básica de atribuição.
+## 🏛️ Estrutura Pedagógica
 
-Tópicos Abordados:
-  • Declaração de variáveis (int).
-  • Tipos de dados numéricos.
-  • Operador de atribuição (=).
-  • Sintaxe: tipo nome = valor;.
+### FASE 1: Variáveis e Tipos de Dados (Tetris)
+[cite_start]**Objetivo:** Compreender e aplicar a declaração de variáveis, tipos de dados e sintaxe básica de atribuição[cite: 2].
 
-Jogo da Fase 1: TETRIS NEON
-Nesta fase, o jogador controla peças de Tetris através de declarações.
-  • Quest 1: Variável simples para tipo de peça (ex: int tipo = 1;).
-  • Quest 2: Múltiplas variáveis para tipo e rotação.
-  • Quest 3: Sistema completo com tipo, rotação e posição.
+* [cite_start]**Tópicos:** Declaração (int), tipos numéricos, operador de atribuição e sintaxe básica[cite: 3, 4].
+* [cite_start]**Mecânica:** O jogador controla peças de Tetris Neon através de código[cite: 4, 15].
+    * [cite_start]**Quest 1:** Declaração simples para definir o tipo de peça[cite: 6].
+    * [cite_start]**Quest 2:** Múltiplas variáveis para controlar tipo e rotação[cite: 8].
+    * [cite_start]**Quest 3:** Sistema completo integrando tipo, rotação e posição[cite: 11].
+* [cite_start]**Dificuldade:** * 🟢 Easy: 1 variável [cite: 16]
+    * [cite_start]🟡 Medium: 2 variáveis [cite: 16]
+    * [cite_start]🔴 Hard: 3 variáveis [cite: 16]
 
-Dificuldade Progressiva:
-  Easy   → 1 variável (tipo).
-  Medium → 2 variáveis (tipo + rotacao).
-  Hard   → 3 variáveis (tipo + rotacao + posicao).
+---
 
-================================================================================
-FASE 2: ESTRUTURAS CONDICIONAIS (PAC-MAN)
-================================================================================
+### FASE 2: Estruturas Condicionais (Pac-Man)
+[cite_start]**Objetivo:** Aplicar estruturas de decisão (if/else), operadores de comparação e lógicos[cite: 16].
 
-Objetivo: Compreender e aplicar estruturas condicionais (if/else), operadores
-de comparação e operadores lógicos.
+* [cite_start]**Tópicos:** Condicionais simples, compostas, encadeadas, operadores de comparação (==, >) e lógicos (&&)[cite: 17].
+* [cite_start]**Mecânica:** O aluno controla o movimento do Pac-Man baseado em variáveis do ambiente[cite: 18, 35].
+    * [cite_start]**Quest 1:** `if` simples para movimento direcional[cite: 19].
+    * [cite_start]**Quest 2:** `if-else` para controle de velocidade baseado em condições[cite: 23].
+    * [cite_start]**Quest 3:** Estrutura encadeada com operadores lógicos para decisões complexas[cite: 27].
 
-Tópicos Abordados:
-  • Estruturas simples, compostas e encadeadas (if / else if / else).
-  • Operadores de comparação (==, >) e lógicos (&&).
+---
 
-Jogo da Fase 2: PAC-MAN CÓDIGO
-O aluno escreve condicionais para controlar o movimento do personagem.
-  • Quest 1: IF Simples para mover em uma direção.
-  • Quest 2: IF-ELSE para decidir entre duas velocidades.
-  • Quest 3: IF-ELSE IF-ELSE com operador && para decisões complexas.
+### FASE 3: Estruturas de Repetição (Jogo do Cofre)
+[cite_start]**Objetivo:** Aplicar laços de repetição (while, do-while, for) e comandos de controle de fluxo (break, continue)[cite: 36].
 
-Dificuldade Progressiva:
-  Easy   → IF simples (1 condição).
-  Medium → IF-ELSE (2 caminhos).
-  Hard   → IF-ELSE IF-ELSE com &&.
+* [cite_start]**Tópicos:** Laços de repetição e comandos de interrupção ou salto[cite: 37].
+* [cite_start]**Mecânica:** Simulação de um terminal hacker para descobrir a combinação de um cofre[cite: 38, 53].
+    * [cite_start]**Quest 1:** `do-while` para gerenciar reinicialização do sistema[cite: 39].
+    * [cite_start]**Quest 2:** `while` para estabelecer limites de tentativas de senha[cite: 42].
+    * [cite_start]**Quest 3:** `for` para percorrer e validar dígitos individuais[cite: 45].
+    * [cite_start]**Quest 4:** `break` para interromper o acesso ao detectar a senha correta[cite: 47].
+    * [cite_start]**Quest 5:** `continue` para pular tentativas inválidas[cite: 50].
 
-================================================================================
-FASE 3: ESTRUTURAS DE REPETIÇÃO E CONTROLE DE FLUXO (JOGO DO COFRE)
-================================================================================
+---
 
-Objetivo: Compreender e aplicar as estruturas de repetição (while, do-while e for)
-e os comandos de controle de fluxo (break e continue).
+### FASE 4: Modularização e Funções (Arsenal do Hacker)
+[cite_start]**Objetivo:** Aplicar técnicas de modularização em C, criando funções reutilizáveis com parâmetros e retorno[cite: 75].
 
-Tópicos Abordados:
-  • Laços: while, do-while e for.
-  • Comandos: break e continue.
+* [cite_start]**Tópicos:** Declaração e chamada de funções, `void`, parâmetros, `return` e arquivos de cabeçalho (.h)[cite: 70, 71, 72, 73, 74].
+* [cite_start]**Mecânica:** O jogador constrói um arsenal de ferramentas modulares para ataques cibernéticos simulados[cite: 76, 77].
+    * [cite_start]**Quest 1:** Criação de função `void` para exibir banners de sistema[cite: 79].
+    * [cite_start]**Quest 2:** Implementação de funções com parâmetros para registro de alvos[cite: 95].
+    * [cite_start]**Quest 3:** Funções com retorno (`int`) para cálculos de dano de ataque[cite: 106].
+    * [cite_start]**Quest 4:** Orquestração de múltiplas funções dentro do `main()`[cite: 117].
+    * [cite_start]**Quest 5:** Modularização profissional separando assinaturas (.h) de implementações (.c)[cite: 130, 132].
 
-Jogo da Fase 3: JOGO DO COFRE
-O jogador atua como um hacker que deve adivinhar a combinação de um cofre.
-  • Quest 1: Do-While para repetir o jogo conforme escolha do usuário.
-  • Quest 2: While para limitar o número de tentativas.
-  • Quest 3: For para percorrer os dígitos da senha individualmente.
-  • Quest 4: Break para interromper o laço ao encontrar a senha.
-  • Quest 5: Continue para saltar para a próxima tentativa se inválida.
+---
 
-Dificuldade Progressiva:
-  Easy   → Repetições simples (do-while / while).
-  Medium → Iteração controlada e indexada (for).
-  Hard   → Controle avançado de fluxo (break e continue).
+## 🛠️ Tecnologias Utilizadas
+* [cite_start]**Linguagem:** C [cite: 62]
+* [cite_start]**Interface:** Terminal Neon / Cyberpunk [cite: 15, 35, 53]
+* [cite_start]**Metodologia:** Aprendizado baseado em Quests (Gamificação) [cite: 64]
 
-================================================================================
-FASE 4: MODULARIZAÇÃO E FUNÇÕES (ARSENAL DO HACKER)
-================================================================================
-
-Objetivo: Compreender e aplicar técnicas de modularização em C, criando funções
-reutilizáveis com parâmetros e retorno.
-
-Tópicos Abordados:
-  • Declaração e chamada de funções.
-  • Funções void (sem retorno).
-  • Parâmetros (passagem de dados) e comando return.
-  • Modularização em arquivos .h (cabeçalho) e .c (implementação).
-
-Jogo da Fase 4: ARSENAL DO HACKER
-O jogador aprende a dividir o programa em funções especializadas para manter
-o código limpo e organizado.
-  • Quest 1: Criar uma função void para exibir o banner do sistema.
-  • Quest 2: Criar uma função com parâmetros para registrar o alvo.
-  • Quest 3: Criar uma função com retorno (int) para calcular dano.
-  • Quest 4: Combinar as funções anteriores em sequência no main().
-  • Quest 5: Organizar o arsenal em arquivos separados (.h e .c).
-
-Dificuldade Progressiva:
-  Easy   → Funções void simples.
-  Medium → Funções com parâmetros e retorno.
-  Hard   → Modularização profissional com múltiplos arquivos.
-================================================================================
+## 👥 Grupo de Desenvolvimento
+* [cite_start]Bruna Kaori Takuti [cite: 60]
+* [cite_start]Fernando Souza [cite: 60]
+* [cite_start]Danilo Cândido [cite: 60]
+* [cite_start]Giovana Furlan [cite: 60]
+* [cite_start]Giovana Ribeiro [cite: 60]
