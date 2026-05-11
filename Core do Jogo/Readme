@@ -1,70 +1,70 @@
-# 🎮 Code Quest - Guia de Fases
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body style="background-color: #0d1117; color: #c9d1d9; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6;">
 
-O **Code Quest** é uma plataforma educacional de programação gamificada, projetada para ensinar conceitos fundamentais de desenvolvimento através de desafios interativos e visualmente estimulantes.
+    <div style="background: linear-gradient(90deg, #00f2fe 0%, #4facfe 100%); padding: 40px; text-align: center; border-radius: 10px; margin-bottom: 30px;">
+        <h1 style="color: #000; margin: 0; font-size: 3em; text-transform: uppercase; letter-spacing: 5px;">🎮 Code Quest</h1>
+        <p style="color: #000; font-weight: bold; margin-top: 10px;">Guia de Fases | Plataforma Educacional Gamificada</p>
+    </div>
 
----
+    <p style="font-size: 1.1em; text-align: center; color: #8b949e;">
+        O <strong>Code Quest</strong> transforma o aprendizado de programação em uma jornada interativa, utilizando mecânicas de jogos clássicos para ensinar lógica e sintaxe em C.
+    </p>
 
-## 🏛️ Estrutura Pedagógica
+    <hr style="border: 0; height: 1px; background-image: linear-gradient(to right, transparent, #58a6ff, transparent); margin: 40px 0;">
 
-### FASE 1: Variáveis e Tipos de Dados (Tetris)
-[cite_start]**Objetivo:** Compreender e aplicar a declaração de variáveis, tipos de dados e sintaxe básica de atribuição[cite: 2].
+    <section style="margin-bottom: 40px; border-left: 5px solid #e3b341; padding-left: 20px;">
+        <h2 style="color: #e3b341;">🟨 Fase 1: Variáveis e Tipos (Tetris Neon)</h2>
+        <p><strong>Objetivo:</strong> Compreender declaração de variáveis e tipos de dados.</p>
+        <ul style="list-style-type: square;">
+            <li><strong>Tópicos:</strong> int, tipos numéricos e atribuição (=).</li>
+            <li><strong>Mecânica:</strong> Controlar peças de Tetris definindo <code>tipo</code>, <code>rotacao</code> e <code>posicao</code>.</li>
+            <li><strong>Dificuldade:</strong> Progressão de 1 a 3 variáveis simultâneas.</li>
+        </ul>
+    </section>
 
-* [cite_start]**Tópicos:** Declaração (int), tipos numéricos, operador de atribuição e sintaxe básica[cite: 3, 4].
-* [cite_start]**Mecânica:** O jogador controla peças de Tetris Neon através de código[cite: 4, 15].
-    * [cite_start]**Quest 1:** Declaração simples para definir o tipo de peça[cite: 6].
-    * [cite_start]**Quest 2:** Múltiplas variáveis para controlar tipo e rotação[cite: 8].
-    * [cite_start]**Quest 3:** Sistema completo integrando tipo, rotação e posição[cite: 11].
-* [cite_start]**Dificuldade:** * 🟢 Easy: 1 variável [cite: 16]
-    * [cite_start]🟡 Medium: 2 variáveis [cite: 16]
-    * [cite_start]🔴 Hard: 3 variáveis [cite: 16]
+    <section style="margin-bottom: 40px; border-left: 5px solid #f2e600; padding-left: 20px;">
+        <h2 style="color: #f2e600;">🍕 Fase 2: Condicionais (Pac-Man Código)</h2>
+        <p><strong>Objetivo:</strong> Aplicar estruturas de decisão e operadores lógicos.</p>
+        <ul style="list-style-type: square;">
+            <li><strong>Tópicos:</strong> if, else, else if e operador lógico (&&).</li>
+            <li><strong>Mecânica:</strong> Definir a direção e velocidade do Pac-Man conforme o valor das variáveis.</li>
+            <li><strong>Dificuldade:</strong> De decisões simples a múltiplas condições encadeadas.</li>
+        </ul>
+    </section>
 
----
+    <section style="margin-bottom: 40px; border-left: 5px solid #6e40aa; padding-left: 20px;">
+        <h2 style="color: #d1b3ff;">🔐 Fase 3: Repetição (Jogo do Cofre)</h2>
+        <p><strong>Objetivo:</strong> Dominar laços de repetição e controle de fluxo.</p>
+        <ul style="list-style-type: square;">
+            <li><strong>Tópicos:</strong> while, do-while, for, break e continue.</li>
+            <li><strong>Mecânica:</strong> Criar um sistema hacker para iterar e validar dígitos de uma senha de cofre.</li>
+            <li><strong>Dificuldade:</strong> Uso de interrupções e iterações controladas por índices.</li>
+        </ul>
+    </section>
 
-### FASE 2: Estruturas Condicionais (Pac-Man)
-[cite_start]**Objetivo:** Aplicar estruturas de decisão (if/else), operadores de comparação e lógicos[cite: 16].
+    <section style="margin-bottom: 40px; border-left: 5px solid #00ff41; padding-left: 20px;">
+        <h2 style="color: #00ff41;">🧪 Fase 4: Modularização (Arsenal do Hacker)</h2>
+        <p><strong>Objetivo:</strong> Criar funções reutilizáveis e organizar o código em módulos.</p>
+        <ul style="list-style-type: square;">
+            <li><strong>Tópicos:</strong> Funções void, parâmetros, return e arquivos .h/.c.</li>
+            <li><strong>Mecânica:</strong> Construir ferramentas independentes (exibirBanner, calcularDano) para ataques modulares.</li>
+            <li><strong>Dificuldade:</strong> Separação de código entre cabeçalhos e implementação real.</li>
+        </ul>
+    </section>
 
-* [cite_start]**Tópicos:** Condicionais simples, compostas, encadeadas, operadores de comparação (==, >) e lógicos (&&)[cite: 17].
-* [cite_start]**Mecânica:** O aluno controla o movimento do Pac-Man baseado em variáveis do ambiente[cite: 18, 35].
-    * [cite_start]**Quest 1:** `if` simples para movimento direcional[cite: 19].
-    * [cite_start]**Quest 2:** `if-else` para controle de velocidade baseado em condições[cite: 23].
-    * [cite_start]**Quest 3:** Estrutura encadeada com operadores lógicos para decisões complexas[cite: 27].
+    <hr style="border: 0; height: 1px; background-image: linear-gradient(to right, transparent, #58a6ff, transparent); margin: 40px 0;">
 
----
+    <footer style="background-color: #161b22; padding: 20px; border-radius: 10px; text-align: center;">
+        <h3 style="color: #58a6ff; margin-bottom: 15px;">Equipe de Desenvolvimento</h3>
+        <p style="font-size: 0.9em; letter-spacing: 1px;">
+            Bruna Kaori Takuti • Fernando Souza • Danilo Cândido • Giovana Furlan • Giovana Ribeiro
+        </p>
+        <p style="margin-top: 15px; color: #8b949e; font-size: 0.8em;">Disciplina: Certificadora de Competência Comum - 2026/01</p>
+    </footer>
 
-### FASE 3: Estruturas de Repetição (Jogo do Cofre)
-[cite_start]**Objetivo:** Aplicar laços de repetição (while, do-while, for) e comandos de controle de fluxo (break, continue)[cite: 36].
-
-* [cite_start]**Tópicos:** Laços de repetição e comandos de interrupção ou salto[cite: 37].
-* [cite_start]**Mecânica:** Simulação de um terminal hacker para descobrir a combinação de um cofre[cite: 38, 53].
-    * [cite_start]**Quest 1:** `do-while` para gerenciar reinicialização do sistema[cite: 39].
-    * [cite_start]**Quest 2:** `while` para estabelecer limites de tentativas de senha[cite: 42].
-    * [cite_start]**Quest 3:** `for` para percorrer e validar dígitos individuais[cite: 45].
-    * [cite_start]**Quest 4:** `break` para interromper o acesso ao detectar a senha correta[cite: 47].
-    * [cite_start]**Quest 5:** `continue` para pular tentativas inválidas[cite: 50].
-
----
-
-### FASE 4: Modularização e Funções (Arsenal do Hacker)
-[cite_start]**Objetivo:** Aplicar técnicas de modularização em C, criando funções reutilizáveis com parâmetros e retorno[cite: 75].
-
-* [cite_start]**Tópicos:** Declaração e chamada de funções, `void`, parâmetros, `return` e arquivos de cabeçalho (.h)[cite: 70, 71, 72, 73, 74].
-* [cite_start]**Mecânica:** O jogador constrói um arsenal de ferramentas modulares para ataques cibernéticos simulados[cite: 76, 77].
-    * [cite_start]**Quest 1:** Criação de função `void` para exibir banners de sistema[cite: 79].
-    * [cite_start]**Quest 2:** Implementação de funções com parâmetros para registro de alvos[cite: 95].
-    * [cite_start]**Quest 3:** Funções com retorno (`int`) para cálculos de dano de ataque[cite: 106].
-    * [cite_start]**Quest 4:** Orquestração de múltiplas funções dentro do `main()`[cite: 117].
-    * [cite_start]**Quest 5:** Modularização profissional separando assinaturas (.h) de implementações (.c)[cite: 130, 132].
-
----
-
-## 🛠️ Tecnologias Utilizadas
-* [cite_start]**Linguagem:** C [cite: 62]
-* [cite_start]**Interface:** Terminal Neon / Cyberpunk [cite: 15, 35, 53]
-* [cite_start]**Metodologia:** Aprendizado baseado em Quests (Gamificação) [cite: 64]
-
-## 👥 Grupo de Desenvolvimento
-* [cite_start]Bruna Kaori Takuti [cite: 60]
-* [cite_start]Fernando Souza [cite: 60]
-* [cite_start]Danilo Cândido [cite: 60]
-* [cite_start]Giovana Furlan [cite: 60]
-* [cite_start]Giovana Ribeiro [cite: 60]
+</body>
+</html>
