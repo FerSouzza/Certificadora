@@ -1,70 +1,104 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-</head>
-<body style="background-color: #0d1117; color: #c9d1d9; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6;">
+================================================================================
+                    CODE QUEST - GUIA DE FASES
+================================================================================
 
-    <div style="background: linear-gradient(90deg, #00f2fe 0%, #4facfe 100%); padding: 40px; text-align: center; border-radius: 10px; margin-bottom: 30px;">
-        <h1 style="color: #000; margin: 0; font-size: 3em; text-transform: uppercase; letter-spacing: 5px;">🎮 Code Quest</h1>
-        <p style="color: #000; font-weight: bold; margin-top: 10px;">Guia de Fases | Plataforma Educacional Gamificada</p>
-    </div>
+Este documento descreve o conteúdo pedagógico e mecânicas de cada fase do
+Code Quest, plataforma educacional de programação gamificada.
 
-    <p style="font-size: 1.1em; text-align: center; color: #8b949e;">
-        O <strong>Code Quest</strong> transforma o aprendizado de programação em uma jornada interativa, utilizando mecânicas de jogos clássicos para ensinar lógica e sintaxe em C.
-    </p>
+================================================================================
+FASE 1: VARIÁVEIS E TIPOS DE DADOS (TETRIS)
+================================================================================
 
-    <hr style="border: 0; height: 1px; background-image: linear-gradient(to right, transparent, #58a6ff, transparent); margin: 40px 0;">
+Objetivo: Compreender e aplicar a declaração de variáveis, tipos de dados
+e sintaxe básica de atribuição.
 
-    <section style="margin-bottom: 40px; border-left: 5px solid #e3b341; padding-left: 20px;">
-        <h2 style="color: #e3b341;">🟨 Fase 1: Variáveis e Tipos (Tetris Neon)</h2>
-        <p><strong>Objetivo:</strong> Compreender declaração de variáveis e tipos de dados.</p>
-        <ul style="list-style-type: square;">
-            <li><strong>Tópicos:</strong> int, tipos numéricos e atribuição (=).</li>
-            <li><strong>Mecânica:</strong> Controlar peças de Tetris definindo <code>tipo</code>, <code>rotacao</code> e <code>posicao</code>.</li>
-            <li><strong>Dificuldade:</strong> Progressão de 1 a 3 variáveis simultâneas.</li>
-        </ul>
-    </section>
+Tópicos Abordados:
+  • Declaração de variáveis (int).
+  • Tipos de dados numéricos.
+  • Operador de atribuição (=).
+  • Sintaxe: tipo nome = valor;.
 
-    <section style="margin-bottom: 40px; border-left: 5px solid #f2e600; padding-left: 20px;">
-        <h2 style="color: #f2e600;">🍕 Fase 2: Condicionais (Pac-Man Código)</h2>
-        <p><strong>Objetivo:</strong> Aplicar estruturas de decisão e operadores lógicos.</p>
-        <ul style="list-style-type: square;">
-            <li><strong>Tópicos:</strong> if, else, else if e operador lógico (&&).</li>
-            <li><strong>Mecânica:</strong> Definir a direção e velocidade do Pac-Man conforme o valor das variáveis.</li>
-            <li><strong>Dificuldade:</strong> De decisões simples a múltiplas condições encadeadas.</li>
-        </ul>
-    </section>
+Jogo da Fase 1: TETRIS NEON
+Nesta fase, o jogador controla peças de Tetris através de declarações.
+  • Quest 1: Variável simples para tipo de peça (ex: int tipo = 1;).
+  • Quest 2: Múltiplas variáveis para tipo e rotação.
+  • Quest 3: Sistema completo com tipo, rotação e posição.
 
-    <section style="margin-bottom: 40px; border-left: 5px solid #6e40aa; padding-left: 20px;">
-        <h2 style="color: #d1b3ff;">🔐 Fase 3: Repetição (Jogo do Cofre)</h2>
-        <p><strong>Objetivo:</strong> Dominar laços de repetição e controle de fluxo.</p>
-        <ul style="list-style-type: square;">
-            <li><strong>Tópicos:</strong> while, do-while, for, break e continue.</li>
-            <li><strong>Mecânica:</strong> Criar um sistema hacker para iterar e validar dígitos de uma senha de cofre.</li>
-            <li><strong>Dificuldade:</strong> Uso de interrupções e iterações controladas por índices.</li>
-        </ul>
-    </section>
+Dificuldade Progressiva:
+  Easy   → 1 variável (tipo).
+  Medium → 2 variáveis (tipo + rotacao).
+  Hard   → 3 variáveis (tipo + rotacao + posicao).
 
-    <section style="margin-bottom: 40px; border-left: 5px solid #00ff41; padding-left: 20px;">
-        <h2 style="color: #00ff41;">🧪 Fase 4: Modularização (Arsenal do Hacker)</h2>
-        <p><strong>Objetivo:</strong> Criar funções reutilizáveis e organizar o código em módulos.</p>
-        <ul style="list-style-type: square;">
-            <li><strong>Tópicos:</strong> Funções void, parâmetros, return e arquivos .h/.c.</li>
-            <li><strong>Mecânica:</strong> Construir ferramentas independentes (exibirBanner, calcularDano) para ataques modulares.</li>
-            <li><strong>Dificuldade:</strong> Separação de código entre cabeçalhos e implementação real.</li>
-        </ul>
-    </section>
+================================================================================
+FASE 2: ESTRUTURAS CONDICIONAIS (PAC-MAN)
+================================================================================
 
-    <hr style="border: 0; height: 1px; background-image: linear-gradient(to right, transparent, #58a6ff, transparent); margin: 40px 0;">
+Objetivo: Compreender e aplicar estruturas condicionais (if/else), operadores
+de comparação e operadores lógicos.
 
-    <footer style="background-color: #161b22; padding: 20px; border-radius: 10px; text-align: center;">
-        <h3 style="color: #58a6ff; margin-bottom: 15px;">Equipe de Desenvolvimento</h3>
-        <p style="font-size: 0.9em; letter-spacing: 1px;">
-            Bruna Kaori Takuti • Fernando Souza • Danilo Cândido • Giovana Furlan • Giovana Ribeiro
-        </p>
-        <p style="margin-top: 15px; color: #8b949e; font-size: 0.8em;">Disciplina: Certificadora de Competência Comum - 2026/01</p>
-    </footer>
+Tópicos Abordados:
+  • Estruturas simples, compostas e encadeadas (if / else if / else).
+  • Operadores de comparação (==, >) e lógicos (&&).
 
-</body>
-</html>
+Jogo da Fase 2: PAC-MAN CÓDIGO
+O aluno escreve condicionais para controlar o movimento do personagem.
+  • Quest 1: IF Simples para mover em uma direção.
+  • Quest 2: IF-ELSE para decidir entre duas velocidades.
+  • Quest 3: IF-ELSE IF-ELSE com operador && para decisões complexas.
+
+Dificuldade Progressiva:
+  Easy   → IF simples (1 condição).
+  Medium → IF-ELSE (2 caminhos).
+  Hard   → IF-ELSE IF-ELSE com &&.
+
+================================================================================
+FASE 3: ESTRUTURAS DE REPETIÇÃO E CONTROLE DE FLUXO (JOGO DO COFRE)
+================================================================================
+
+Objetivo: Compreender e aplicar as estruturas de repetição (while, do-while e for)
+e os comandos de controle de fluxo (break e continue).
+
+Tópicos Abordados:
+  • Laços: while, do-while e for.
+  • Comandos: break e continue.
+
+Jogo da Fase 3: JOGO DO COFRE
+O jogador atua como um hacker que deve adivinhar a combinação de um cofre.
+  • Quest 1: Do-While para repetir o jogo conforme escolha do usuário.
+  • Quest 2: While para limitar o número de tentativas.
+  • Quest 3: For para percorrer os dígitos da senha individualmente.
+  • Quest 4: Break para interromper o laço ao encontrar a senha.
+  • Quest 5: Continue para saltar para a próxima tentativa se inválida.
+
+Dificuldade Progressiva:
+  Easy   → Repetições simples (do-while / while).
+  Medium → Iteração controlada e indexada (for).
+  Hard   → Controle avançado de fluxo (break e continue).
+
+================================================================================
+FASE 4: MODULARIZAÇÃO E FUNÇÕES (ARSENAL DO HACKER)
+================================================================================
+
+Objetivo: Compreender e aplicar técnicas de modularização em C, criando funções
+reutilizáveis com parâmetros e retorno.
+
+Tópicos Abordados:
+  • Declaração e chamada de funções.
+  • Funções void (sem retorno).
+  • Parâmetros (passagem de dados) e comando return.
+  • Modularização em arquivos .h (cabeçalho) e .c (implementação).
+
+Jogo da Fase 4: ARSENAL DO HACKER
+O jogador aprende a dividir o programa em funções especializadas para manter
+o código limpo e organizado.
+  • Quest 1: Criar uma função void para exibir o banner do sistema.
+  • Quest 2: Criar uma função com parâmetros para registrar o alvo.
+  • Quest 3: Criar uma função com retorno (int) para calcular dano.
+  • Quest 4: Combinar as funções anteriores em sequência no main().
+  • Quest 5: Organizar o arsenal em arquivos separados (.h e .c).
+
+Dificuldade Progressiva:
+  Easy   → Funções void simples.
+  Medium → Funções com parâmetros e retorno.
+  Hard   → Modularização profissional com múltiplos arquivos.
+================================================================================
