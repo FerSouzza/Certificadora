@@ -59,27 +59,41 @@ const gameData: Record<number, Array<{
     }
   ],
   3: [
-    // FASE 3: REPETIÇÃO - Em Desenvolvimento
+    // FASE 3: REPETIÇÃO - JOGO DO COFRE
     {
       id: 1,
-      title: 'Repetição - Desafio 1/3',
-      challenge: 'Em desenvolvimento - Crie seu jogo em src/games/fase3.ts',
-      correctAnswer: 'placeholder',
-      hint: 'Jogo ainda não implementado'
+      title: 'Repetição - Desafio 1/5',
+      challenge: 'Use do-while para executar jogarNivelHacker() enquanto continuar == "s".',
+      correctAnswer: 'do{jogarNivelHacker();}while(continuar=="s");',
+      hint: 'Laço do-while roda o bloco antes de testar a condição.'
     },
     {
       id: 2,
-      title: 'Repetição - Desafio 2/3',
-      challenge: 'Em desenvolvimento - Crie seu jogo em src/games/fase3.ts',
-      correctAnswer: 'placeholder',
-      hint: 'Jogo ainda não implementado'
+      title: 'Repetição - Desafio 2/5',
+      challenge: 'Use while para imprimir tentativas e decrementar até chegar a zero.',
+      correctAnswer: 'while(tentativas>0){printf("%d tentativas",tentativas);tentativas--;}',
+      hint: 'O while repete enquanto tentativas for maior que zero.'
     },
     {
       id: 3,
-      title: 'Repetição - Desafio 3/3',
-      challenge: 'Em desenvolvimento - Crie seu jogo em src/games/fase3.ts',
-      correctAnswer: 'placeholder',
-      hint: 'Jogo ainda não implementado'
+      title: 'Repetição - Desafio 3/5',
+      challenge: 'Use o for para checar cada um dos três dígitos de tentativa.\n ',
+      correctAnswer: 'for(inti=0;i<3;i++){if(tentativaHacker[i]==senhaCorreta[i]){printf("Dígitonnaposição%destáCORRETO.",i+1);}else{printf("Dígitonnaposição%destáERRADO.",i+1);}}',
+      hint: 'Utilize senhaCorreta[i] e tentativaHacker[i] para comparar cada dígito e imprima a mensagem: "Dígito na posição X está CORRETO/ERRADO."'
+    },
+    {
+      id: 4,
+      title: 'Repetição - Desafio 4/5',
+      challenge: 'Use break para sair do laço se a senha estiver correta e imprimir "Acesso aprovado!".',
+      correctAnswer: 'if(senhaCorreta){printf("Acesso aprovado!");break;}',
+      hint: 'O break interrompe o laço imediatamente quando a condição é verdadeira.'
+    },
+    {
+      id: 5,
+      title: 'Repetição - Desafio 5/5',
+      challenge: 'Use continue para nova tentativa se a senha estiver errada.',
+      correctAnswer: 'if(senhaInvalida){printf("Senha Inválida!. Tente novamente.");continue;}',
+      hint: 'O continue pula para a próxima iteração do laço.'
     }
   ],
   4: [
@@ -111,7 +125,7 @@ const gameData: Record<number, Array<{
 const phaseTitles: Record<number, string> = {
   1: 'VARIÁVEIS - TETRIS',
   2: 'CONDICIONAIS - PAC-MAN',
-  3: 'REPETIÇÃO - EM DESENVOLVIMENTO',
+  3: 'REPETIÇÃO - JOGO DO COFRE',
   4: 'FUNÇÕES - EM DESENVOLVIMENTO'
 };
 
@@ -211,6 +225,7 @@ export function GamePage({ phaseId, onBack }: GamePageProps) {
             phaseId={phaseId}
             isValidated={isValidated}
             feedback={feedback}
+            currentChallengeIndex={currentChallengeIndex}
           />
 
           {/* Indicadores de desafios abaixo do canvas */}
