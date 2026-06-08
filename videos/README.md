@@ -7,6 +7,8 @@ Pasta com videoaulas voltadas ao ensino da linguagem de programação C, com foc
 - Estruturas de repetição
 - Funções
 
+## Links das videoaulas disponíveis pelo google drive
+
 # Lista de Integrantes
 
 <table>
