@@ -97,27 +97,41 @@ const gameData: Record<number, Array<{
     }
   ],
   4: [
-    // FASE 4: FUNÇÕES - Em Desenvolvimento
+    // FASE 4: FUNÇÕES - ARSENAL DO HACKER
     {
       id: 1,
-      title: 'Funções - Desafio 1/3',
-      challenge: 'Em desenvolvimento - Crie seu jogo em src/games/fase4.ts',
-      correctAnswer: 'placeholder',
-      hint: 'Jogo ainda não implementado'
+      title: 'Funções - Desafio 1/5',
+      challenge: 'Crie uma função void chamada exibirBanner que imprime exatamente: ACESSO HACKER LIBERADO',
+      correctAnswer: 'void exibirBanner() { printf("ACESSO HACKER LIBERADO"); }',
+      hint: 'Função void não usa return. Sintaxe: void nome() { ... }'
     },
     {
       id: 2,
-      title: 'Funções - Desafio 2/3',
-      challenge: 'Em desenvolvimento - Crie seu jogo em src/games/fase4.ts',
-      correctAnswer: 'placeholder',
-      hint: 'Jogo ainda não implementado'
+      title: 'Funções - Desafio 2/5',
+      challenge: 'Crie a função registrarAlvo, que recebe char nome[] e imprime: Alvo identificado: %s (usando nome).',
+      correctAnswer: 'void registrarAlvo(char nome[]) { printf("Alvo identificado: %s", nome); }',
+      hint: 'Os parâmetros vão entre os parênteses: (char nome[]).'
     },
     {
       id: 3,
-      title: 'Funções - Desafio 3/3',
-      challenge: 'Em desenvolvimento - Crie seu jogo em src/games/fase4.ts',
-      correctAnswer: 'placeholder',
-      hint: 'Jogo ainda não implementado'
+      title: 'Funções - Desafio 3/5',
+      challenge: 'Crie a função int calcularDano que recebe int forca e int bonus e retorna a soma dos dois.',
+      correctAnswer: 'int calcularDano(int forca, int bonus) { return forca + bonus; }',
+      hint: 'O tipo de retorno (int) vem antes do nome. Use return.'
+    },
+    {
+      id: 4,
+      title: 'Funções - Desafio 4/5',
+      challenge: 'No main(), chame exibirBanner(), depois registrarAlvo("Servidor Central"), guarde calcularDano(50, 30) em int dano, imprima "Dano total causado: %d" e retorne 0.',
+      correctAnswer: 'int main() { exibirBanner(); registrarAlvo("Servidor Central"); int dano = calcularDano(50, 30); printf("Dano total causado: %d", dano); return 0; }',
+      hint: 'O main apenas orquestra: chama as funções em sequência.'
+    },
+    {
+      id: 5,
+      title: 'Funções - Desafio 5/5',
+      challenge: 'Modularização: no main.c, inclua o cabeçalho do arsenal para usar as funções declaradas nele.',
+      correctAnswer: '#include "arsenal.h"',
+      hint: 'Use #include "arsenal.h" (aspas duplas para cabeçalhos do projeto).'
     }
   ]
 };
@@ -126,7 +140,7 @@ const phaseTitles: Record<number, string> = {
   1: 'VARIÁVEIS - TETRIS',
   2: 'CONDICIONAIS - PAC-MAN',
   3: 'REPETIÇÃO - JOGO DO COFRE',
-  4: 'FUNÇÕES - EM DESENVOLVIMENTO'
+  4: 'FUNÇÕES - ARSENAL DO HACKER'
 };
 
 interface GamePageProps {

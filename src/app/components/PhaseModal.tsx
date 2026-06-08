@@ -1,35 +1,43 @@
+import { useState } from 'react';
 import { X, Play } from 'lucide-react';
 
 const phaseData = [
   {
     id: 1,
     title: 'Variáveis',
-    instructor: 'Fernando',
+    instructor: 'Fernando e Giovana R.',
     summary: 'Nesta fase você aprenderá os conceitos fundamentais de variáveis em C, incluindo tipos de dados (int, float, char), declaração, inicialização e operações básicas. Entenda como armazenar e manipular informações na memória.',
-    topics: ['Tipos de dados primitivos', 'Declaração e inicialização', 'Operadores aritméticos', 'Escopo de variáveis']
+    topics: ['Tipos de dados primitivos', 'Declaração e inicialização', 'Operadores aritméticos', 'Escopo de variáveis'],
+    video: 'videos/fase1.mp4'
   },
   {
     id: 2,
     title: 'Condicionais',
-    instructor: 'Danilo',
+    instructor: 'Fernando e Giovana R.',
     summary: 'Domine as estruturas de decisão em C! Aprenda a usar if, else, else if e switch-case para criar programas que tomam decisões baseadas em condições. Explore operadores lógicos e relacionais.',
-    topics: ['Estrutura if/else', 'Operadores relacionais', 'Operadores lógicos', 'Switch-case']
+    topics: ['Estrutura if/else', 'Operadores relacionais', 'Operadores lógicos', 'Switch-case'],
+    video: 'videos/fase2.mp4'
   },
   {
     id: 3,
     title: 'Repetição',
-    instructor: 'Bruna',
+    instructor: 'Bruna e Giovanna F.',
     summary: 'Explore o poder dos loops! Aprenda a usar while, do-while e for para repetir blocos de código. Entenda quando usar cada tipo de loop e como controlar a execução com break e continue.',
-    topics: ['Loop while', 'Loop for', 'Do-while', 'Break e continue']
+    topics: ['Loop while', 'Loop for', 'Do-while', 'Break e continue'],
+    video: 'videos/fase3.mp4'
   },
   {
     id: 4,
     title: 'Funções',
-    instructor: 'Danilo',
+    instructor: 'Danilo e Giovanna F.',
     summary: 'Organize seu código com funções! Aprenda a criar funções reutilizáveis, passar parâmetros, retornar valores e entender o conceito de modularização. Descubra como funções tornam seu código mais limpo e eficiente.',
-    topics: ['Declaração de funções', 'Parâmetros e argumentos', 'Valores de retorno', 'Escopo e recursão']
+    topics: ['Declaração de funções', 'Parâmetros e argumentos', 'Valores de retorno', 'Modularização (.h / .c)'],
+    video: null
   }
 ];
+
+// Vite serve a pasta public/ a partir do base path configurado (/Certificadora/).
+const resolveVideo = (path: string) => `${import.meta.env.BASE_URL}${path}`;
 
 interface PhaseModalProps {
   phaseId: number;
@@ -38,6 +46,8 @@ interface PhaseModalProps {
 }
 
 export function PhaseModal({ phaseId, onClose, onPlay }: PhaseModalProps) {
+  // Se o arquivo de vídeo estiver ausente/vazio, cai para o aviso "em breve".
+  const [videoFailed, setVideoFailed] = useState(false);
   const phase = phaseData.find(p => p.id === phaseId);
   if (!phase) return null;
 
@@ -104,14 +114,26 @@ export function PhaseModal({ phaseId, onClose, onPlay }: PhaseModalProps) {
             >
               &gt; Vídeo Aula (VideoScribe)
             </h3>
-            <div className="aspect-video bg-black/50 border-2 border-accent/50 flex items-center justify-center">
-              <div className="text-center space-y-4">
-                <Play className="w-20 h-20 text-accent mx-auto" />
-                <p style={{ fontFamily: 'var(--font-mono)' }} className="text-accent/80">
-                  Player de vídeo (VideoScribe)
-                </p>
+            {phase.video && !videoFailed ? (
+              <video
+                controls
+                preload="metadata"
+                className="w-full aspect-video bg-black border-2 border-accent/50"
+                src={resolveVideo(phase.video)}
+                onError={() => setVideoFailed(true)}
+              >
+                Seu navegador não suporta a reprodução de vídeo.
+              </video>
+            ) : (
+              <div className="aspect-video bg-black/50 border-2 border-accent/50 flex items-center justify-center">
+                <div className="text-center space-y-4">
+                  <Play className="w-20 h-20 text-accent mx-auto" />
+                  <p style={{ fontFamily: 'var(--font-mono)' }} className="text-accent/80">
+                    Vídeo aula em breve
+                  </p>
+                </div>
               </div>
-            </div>
+            )}
           </div>
 
           <button

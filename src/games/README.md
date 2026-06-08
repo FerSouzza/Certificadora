@@ -8,8 +8,8 @@ Esta pasta contém os jogos visuais que ensinam programação através de desafi
 src/games/
 ├── fase1.ts          # FASE 1: VARIÁVEIS - Tetris (COMPLETO)
 ├── fase2.ts          # FASE 2: CONDICIONAIS - Pac-Man (COMPLETO)
-├── fase3.ts          # FASE 3: REPETIÇÃO - Em desenvolvimento
-├── fase4.ts          # FASE 4: FUNÇÕES - Em desenvolvimento
+├── fase3.ts          # FASE 3: REPETIÇÃO - Jogo do Cofre (COMPLETO)
+├── fase4.ts          # FASE 4: FUNÇÕES - Arsenal do Hacker (COMPLETO)
 └── README.md         # Este arquivo
 ```
 

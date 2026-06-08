@@ -4,6 +4,7 @@ interface GameCanvasProps {
   phaseId: number;
   isValidated: boolean;
   feedback: 'correct' | 'incorrect' | null;
+  currentChallengeIndex?: number;
 }
 
 interface GameModule {
@@ -12,12 +13,17 @@ interface GameModule {
     phaseId: number;
     isValidated: boolean;
     feedback: 'correct' | 'incorrect' | null;
+    currentChallengeIndex?: number;
   }) => void;
-  updateGameProps: (props: { isValidated: boolean; feedback: 'correct' | 'incorrect' | null }) => void;
+  updateGameProps: (props: {
+    isValidated: boolean;
+    feedback: 'correct' | 'incorrect' | null;
+    currentChallengeIndex?: number;
+  }) => void;
   cleanupGame: () => void;
 }
 
-export function GameCanvas({ phaseId, isValidated, feedback }: GameCanvasProps) {
+export function GameCanvas({ phaseId, isValidated, feedback, currentChallengeIndex = 0 }: GameCanvasProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const gameModuleRef = useRef<GameModule | null>(null);
 
@@ -76,7 +82,8 @@ export function GameCanvas({ phaseId, isValidated, feedback }: GameCanvasProps) 
           canvas,
           phaseId,
           isValidated,
-          feedback
+          feedback,
+          currentChallengeIndex
         });
 
         console.log(`Jogo da fase ${phaseId} carregado com sucesso`);
@@ -126,10 +133,11 @@ export function GameCanvas({ phaseId, isValidated, feedback }: GameCanvasProps) 
     if (gameModuleRef.current?.updateGameProps) {
       gameModuleRef.current.updateGameProps({
         isValidated,
-        feedback
+        feedback,
+        currentChallengeIndex
       });
     }
-  }, [isValidated, feedback]);
+  }, [isValidated, feedback, currentChallengeIndex]);
 
   return (
     <div className="flex items-center justify-center w-full h-full bg-[#0D1117]">
